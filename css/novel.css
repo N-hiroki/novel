@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    background-size:contain;
+}
+#character{
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+#commentSpace{
+    position:absolute;
+    bottom: 10px;
+    height: 40%;
+    width: 80%;
+    margin-left: 10%;
+    border: 5px dashed black;
+    background-color: hsl(120,2%,20%);
+    opacity: 0.6;
+}
+#commentSpace p{
+    margin: 10px;
+    font-size: 35px;    
+    font-family: "851MkPOP", Verdana, sans-serif;
+    color: cornsilk;
+}
+@media(max-width: 1000px){
+    #commentSpace p{
+        font-size: 30px;    
+    }
+}
+@media screen and (max-width:700px){
+    #commentSpace p{
+        font-size: 23px;    
+    }
+}
+@media screen and (max-width: 600px){
+    #commentSpace p{
+        font-size: 5vw;    
+    }
+}
